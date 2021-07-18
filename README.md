@@ -41,7 +41,7 @@ Refactored portion of Code:
 ![alt text](https://github.com/austin020269/Stocks-Analysis/blob/main/Resources/refactored%20code.PNG)
 ![alt text](https://github.com/austin020269/Stocks-Analysis/blob/main/Resources/refactored%20code_2.PNG)
 
-Outputs showing refctored code runs faster than the original for both years:
+Outputs showing refactored code runs faster than the original for both years:
 
 2017 original:
 
@@ -59,7 +59,7 @@ Outputs showing refctored code runs faster than the original for both years:
 
 ![alt text](https://github.com/austin020269/Stocks-Analysis/blob/main/Resources/VBA_Challenge_2018_refactored.PNG)
 
-### Deliverable 2: Reducing Data Dimensions Using PCA 
+### Deliverable 2: Written Analysis of Results  
 
 Specifically for this deliverable we did the following:
 1. Continue using the crypto_clustering.ipynb file from Deliverable 1 where you’ve already performed the preprocessing steps.
