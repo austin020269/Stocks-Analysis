@@ -44,15 +44,19 @@ Refactored portion of Code:
 Outputs showing refctored code runs faster than the original for both years:
 
 2017 original:
+
 ![alt text](https://github.com/austin020269/Stocks-Analysis/blob/main/Resources/VBA_Challenge_2017_original.PNG)
 
 2017 refactored:
+
 ![alt text](https://github.com/austin020269/Stocks-Analysis/blob/main/Resources/VBA_Challenge_2017_refactored.PNG)
 
 2018 original:
+
 ![alt text](https://github.com/austin020269/Stocks-Analysis/blob/main/Resources/VBA_Challenge_2018_original.PNG)
 
 2018 refactored:
+
 ![alt text](https://github.com/austin020269/Stocks-Analysis/blob/main/Resources/VBA_Challenge_2018_refactored.PNG)
 
 ### Deliverable 2: Reducing Data Dimensions Using PCA 
