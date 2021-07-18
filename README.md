@@ -16,21 +16,25 @@ Software utilized for this study included:
 
 ## Analysis/Workflow/Results
 
-### Deliverable 1: Preprocessing the Data for PCA
+### Deliverable 1: Refactor VBA Code and Measure Performance 
 
 Specifically for this deliverable we did the following:
-1. Read in the crypto_data.csv to the Pandas DataFrame named crypto_df.
-2. Keep all the cryptocurrencies that are being traded.
-3. Drop the IsTrading column.
-4. Remove rows that have at least one null value.
-5. Filter the crypto_df DataFrame so it only has rows where coins have been mined.
-6. Create a new DataFrame that holds only the cryptocurrency names, and use the crypto_df DataFrame index as the index for this new DataFrame.
-7. Remove the CoinName column from the crypto_df DataFrame since it's not going to be used on the clustering algorithm (see below).
-
-![alt text](https://github.com/austin020269/Cryptocurrencies/blob/main/Deli1_1.PNG)
-
-9. Use the get_dummies() method to create variables for the two text features, Algorithm and ProofType, and store the resulting data in a new DataFrame named X.
-10. Use the StandardScaler fit_transform() function to standardize the features from the X DataFrame.
+1. Download the challenge_starter_code.vbs file and rename it VBA_Challenge.vbs.
+2. Create a folder called “Resources” to hold the run-time pop-up messages that you’ll screenshot after running refactored analyses for 2017 and 2018.
+3. Rename the green_stocks.xlsm file that you used in this module as VBA_Challenge.xlsm.
+4. Add the VBA_Challenge.vbs script to the Microsoft Visual Basic editor.
+5. Use the steps below to add code where indicated by the numbered comments in the starter code file.
+6. Create a tickerIndex variable and set it equal to zero before iterating over all the rows. You will use this tickerIndex to access the correct index across the four different arrays you’ll be using: the tickers array and the three output arrays you’ll create in Step 1b.
+7. Create three output arrays: tickerVolumes, tickerStartingPrices, and tickerEndingPrices.
+8. Create a for loop to initialize the tickerVolumes to zero.
+9. Create a for loop that will loop over all the rows in the spreadsheet.
+10. Inside the for loop, write a script that increases the current tickerVolumes (stock ticker volume) variable and adds the ticker volume for the current stock ticker.
+Use the tickerIndex variable as the index.
+11. Write an if-then statement to check if the current row is the first row with the selected tickerIndex. If it is, then assign the current closing price to the tickerStartingPrices variable.
+12. Write an if-then statement to check if the current row is the last row with the selected tickerIndex. If it is, then assign the current closing price to the tickerEndingPrices variable.
+13. Write a script that increases the tickerIndex if the next row’s ticker doesn’t match the previous row’s ticker.
+14. Use a for loop to loop through your arrays (tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices) to output the “Ticker,” “Total Daily Volume,” and “Return” columns in your spreadsheet.
+15. Run the stock analysis, then confirm that your stock analysis outputs for 2017 and 2018 are the same as they were in the module (as shown in the images below). In your Resources folder, save the pop-up messages showing elapsed run time for the refactored code as VBA_Challenge_2017.png and VBA_Challenge_2018.png. Then, save the changes to your workbook.
 
 Code:
 
