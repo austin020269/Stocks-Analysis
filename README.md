@@ -36,9 +36,10 @@ Use the tickerIndex variable as the index.
 14. Use a for loop to loop through your arrays (tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices) to output the “Ticker,” “Total Daily Volume,” and “Return” columns in your spreadsheet.
 15. Run the stock analysis, then confirm that your stock analysis outputs for 2017 and 2018 are the same as they were in the module (as shown in the images below). In your Resources folder, save the pop-up messages showing elapsed run time for the refactored code as VBA_Challenge_2017.png and VBA_Challenge_2018.png. Then, save the changes to your workbook.
 
-Code:
+Refactored portion of Code:
 
-![alt text](https://github.com/austin020269/Cryptocurrencies/blob/main/Deli1_2.PNG)
+![alt text](https://github.com/austin020269/Stocks-Analysis/blob/main/Resources/refactored%20code.PNG)
+![alt text](https://github.com/austin020269/Stocks-Analysis/blob/main/Resources/refactored%20code_2.PNG)
 
 ### Deliverable 2: Reducing Data Dimensions Using PCA 
 
