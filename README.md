@@ -61,6 +61,6 @@ Outputs showing refactored code runs faster than the original for both years:
 
 ### Deliverable 2: Written Analysis of Results  
 
-It is obvious from the above results refactoring the data made the code more efficient, however the time difference was not a measurable amount betqween the two runs (approx. 1 second).  Given that, I would not say this dataset was worth the effort to do so.  However, for larger more compliacted datasets this would probably prove to be advantageous.
+It is obvious from the above results refactoring the data made the code more efficient, however the time difference was not a measurable amount between the two runs (approx. 1 second).  Given that, I would not say this dataset was worth the effort to do so.  However, for larger more complicated datasets this would probably prove to be advantageous.
 
-The rafactoring is a benefit in that you can use previous to do so just my some simple modifications, however without a strong understanding of the original code it can be quite challenging to complete and run properly.
+The rafactoring is a benefit in that you can use previous code to do so just by some simple modifications, however without a strong understanding of the original code it can be quite challenging to complete and run properly.
